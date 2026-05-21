@@ -1,8 +1,2 @@
 [phases.setup]
-nixPkgs = ["ffmpeg", "python313"]
-
-[phases.install]
-cmds = ["pip install flask"]
-
-[start]
-cmd = "python app.py"
+nixPkgs = ["ffmpeg"]
